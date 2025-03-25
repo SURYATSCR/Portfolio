@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Naveen Golla",
-  title: "Hi all, I'm Naveen",
+  username: "Surya Chandra Reddy",
+  title: "Hello All, I'm Surya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / React / Nodejs / ASP.NET and some other cool libraries and frameworks."
+    "Java Full Stack Developer creating scalable, high-performance microservices and distributed systems to power Financial Client operations"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -33,10 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Naveen-Golla123",
-  linkedin: "https://www.linkedin.com/in/naveen-golla-ba89a2143/",
-  gmail: "naveeng@csu.fullerton.edu",
-  medium: "https://medium.com/@naveengolla",
+  github: "https://github.com/SURYATSCR",
+  linkedin: "https://www.linkedin.com/in/tscr/",
+  gmail: "suryachandra.tscr@gmail.com",
+  Instagram: "https://www.instagram.com/yourstruly_surya/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,14 +45,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Curious Developer on a Mission to Master All Stacks!",
+  title: "Tech Stack I work with",
+  subTitle: " ",
   skills: [
     emoji(
-      "💡 Problem Solver Extraordinaire: Thrive on dissecting complex problems and engineering elegant solutions, ensuring your project hurdles are always overcome."
+      "🔄 Backend Efficiency Wizard: Built Spring Boot microservices and Kafka error systems, cutting processing times by 25%. I boosted performance for customer onboarding with Oracle DB integration."
     ),
     emoji(
-      "🚀 Passionate Full Stack Developer with a knack for solving real-time challenges through innovative web and Android solutions."
+      "🛠️ Scalability Architect: Created RESTful APIs and microservices, reducing deployment times by 15% for fraud detection. I used Docker and GKE to ensure scalable, secure backend solutions."
     ),
     emoji("🌐 Architectural Visionary: Crafting robust, scalable, and efficient architectures that power seamless user experiences.")
   ],
@@ -62,11 +62,31 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Microservices",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "Junit",
+      fontAwesomeClassname: "fas fa-bug"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -74,32 +94,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-amazon"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Bitbucket",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -111,21 +127,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "California State University, Fullerton",
-      logo: require("./assets/images/california_State_University,_Fullerton_logo.png"),
+      schoolName: "University of North Texas, Denton",
+      logo: require("./assets/images/unt-logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2022 - May 2024",
-      desc: "Course Work: Web Backend engineering, Advanced Database Management, Advanced Algorithms, Network Security, Modren Software Management, System Requirements and Standards.",
+      duration: "January 2021 - May 2022",
+      desc: "Course Work: Computer Networks, Database Management Systems, Data Visualization, Software Engineering, Computer Algorithms, Big Data-Data Science, Advanced Algorithms, Machine Learning",
       descBullets: [
-        
+        "Worked as Student Library Assistant in Willis Library, UNT" 
       ]
     },
     {
-      schoolName: "Birla Institute of Technology, Mesra.",
-      logo: require("./assets/images/bit_mesra_logo.png"),
+      schoolName: "RVR & JC College of Engineering, India",
+      logo: require("./assets/images/RVR_logo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2016 - July 2020",
-      desc: "Course Work: Algorithm Analysis, Operating System, Java Programming, Database Management System, Computer Architecture, Artificial Intelligence, Software project management, Data mining, Statistics",
+      duration: "June 2016 - May 2019",
+      desc: "Course Work: Algorithm Analysis, Operating Systems, Object Oriented Programming, Database Management System, Computer Architecture, Artificial Intelligence, Data mining, Web Technologies",
       descBullets: []
     }
   ]
@@ -137,31 +153,31 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Python",
+      Stack: "Java 11/17/21  (7.5 out of 10) ",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Spring Boot  (7 out of 10) ",
       progressPercentage: "70%"
     },
     {
-      Stack: "Java",
+      Stack: "Microservices  (7 out of 10)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Angular", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Angular  (6 out of 10)", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "React",
-      progressPercentage: "70%"
+      Stack: "JavaScript  (6 out of 10) ",
+      progressPercentage: "60%"
     },
     {
-      Stack: "ASP.NET",
-      progressPercentage: "70%"
+      Stack: "Python  (6 out of 10) ",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Nest.js",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Android Development",
+      Stack: "HTML-CSS (7 out of 10) ",
       progressPercentage: "70%"
     }
   ],
@@ -174,40 +190,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Intern",
-      company: "Inovalon",
-      companylogo: require("./assets/images/Inovalon_logo.png"),
-      date: "July 2020 – August 2023",
+      role: "Java Full Stack Developer",
+      company: "Accenture  : JPMC",
+      companylogo: require("./assets/images/JPMC.jpg"),
+      date: "Apr 2024 – Present",
       desc: "",
       descBullets: [
-        "Achieved 80% Unit Test Case Coverage using Moq framework in ASP.NET solutions.",
-        "Optimized UI performance in Angular, reducing duplicated code and network calls with generic components.",
-        "Created a feature-rich internal page in the EDR portal enabling View, Delete, Edit, and Add functionalities for Client Configuration details.",
-        "Decoupled tightly-coupled APIs by implementing new API endpoints, significantly improving response time."
+        "Built REST APIs with Spring Boot for customer onboarding, enhancing microservices integration.",
+        "Ensured code quality with JUnit, Mockito, and SonarQube testing. ",
+        "Implemented Kafka error messaging with Oracle DB, improving efficiency by 25%."
+      ]
+    },
+    {
+      role: "Software Developer Consultant",
+      company: "HCL : Mastercard",
+     // companylogo: require("./assets/images/HCL.png"),
+      companylogo: require("./assets/images/mastercard.png"),
+      date: "Sep 2022 – Nov 2023",
+      desc: "",
+      descBullets: [
+        "Designed & Developed efficient microservices with Spring Boot for Mastercard Fraud Center including MFC, Stand-In, TRE & Fraud Detection. Deployed them on Docker, orchestrated them with GKE.",
+        "Built Angular UI for MFC, boosting user engagement by 10%.",
+        "Achieved sonarQube coverage of all the Shared Libraries to 90% by implementing code quality measures and code refactoring, resulting in enhanced software maintainability."
+      ]
+    },
+    {
+      role: "Student Library Assistant",
+      company: "Willis Library, UNT",
+      companylogo: require("./assets/images/unt-logo.png"),
+      date: "Aug 2021 – Dec 2021",
+      desc: "",
+      descBullets: [
+        "Assisted patrons with new Library cards. Books, Journals, Academic Laptops and digital equipment checkout. ",
+        "Maintained the Reports of resource overdue status by Specified procedure and filing of classified records",
+    
       ]
     },
     {
       role: "Software Engineer",
-      company: "GEP Worldwide",
-      companylogo: require("./assets/images/GEP_Logo.png"),
-      date: "July 2020 – August 2022",
+      company: "Value Labs",
+      companylogo: require("./assets/images/ValueLabs.jpg"),
+      date: "July 2019 – Nov 2020",
       desc: "",
       descBullets: [
-        "Developed micro front-end architecture by implementing versatile and reusable Angular plugins for the survey module which in turn cut down 80% of the other teams work.",
-        "Improved data retrieval process using .NET web APIs with Middleware and migrated SQL data to Neo4j reducing the API data retrieval time by 50% and performed unit testing of the features using xUnit and Cypress.js frameworks.",
-        "Worked in an agile environment implementing SCRUM methodologies and JIRA."
-      ]
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "GEP worldwide",
-      companylogo: require("./assets/images/GEP_Logo.png"),
-      date: "Jan 2020 – Sep 2020",
-      desc: "",
-      descBullets: [
-        "Enhanced auction supplier bidding page load time by 60% by upgrading code to .NET core in micro-service based environment using repository pattern in C#, Angular and Typescript.",
-        "Optimized stored procedures, triggers, functions and integrated caching mechanism using redis tool for live Auction engine.",
-        "Conceptualized and implemented features to enhance buyer experience such as chat application using SignalR, Graphical representation in Highcharts.js."
+        "Resolved JIRA tickets in Agile projects, managing code with GitHub. ",
+        "Created Java apps with Spring Framework for health science, enhancing performance.",
+        "Created RESTful APIs for performing CRUD operations on User Data. ",
       ]
     }
   ]
@@ -224,17 +252,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Application Migration On-Premise to Multi-cloud Environment(AWS, Google Cloud)",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Application Migration to Multi-cloud Environment",
+      projectDesc: "Made data migration from Onpremise MySQL to Cloud SQL using ETL. Switched application server to GKE. Incorporated Terraform to automate the provisioning and managing of cloud resources, ensuring a consistent and repeatable infrastructure setup.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          //name: "Visit Website",
+         // url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -375,8 +403,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "",
-  number: "+16572754610",
-  email_address: "naveeng@csu.fullerton.edu"
+  number: "940-231-2678",
+  email_address: "suryachandra.tscr@gmail.com"
 };
 
 // Twitter Section
